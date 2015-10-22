@@ -46,7 +46,11 @@ public class Egz_rower {
     // metoda setter
     void WpiszprędkośćMax(int prędkośćMax)
     {
-        this.prędkośćMax = prędkośćMax;
+        this.prędkośćMax += prędkośćMax;
+    }
+    void WpiszPredkośćMaxzmniejsz(int prędkośćMax)
+    {
+       this.prędkośćMax -= prędkośćMax;
     }
     
     int DajlBiegów()
